@@ -33,8 +33,7 @@ h1 {
 }
 
 .pone {
-
-  text-align: center;
+    text-align: center; 
 
 }
 
@@ -64,18 +63,20 @@ section img {
 .search {
     color: black;
 }
+
 footer {
-  display: flex;
-  /*flex-wrap: wrap;*/
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: space-between;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 footer section {
-  flex: 1;
-  padding: 15px;
+    flex: 1;
+    padding: 15px;
 }
+
 section p {
-  align-items: flex-start;
+    align-items: flex-start;
 }
