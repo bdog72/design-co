@@ -66,6 +66,16 @@ section img {
 }
 footer {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+footer section {
+  flex: 1;
+  padding: 15px;
+}
+section p {
+  align-items: flex-start;
 }
